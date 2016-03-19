@@ -60,10 +60,10 @@ public class Game {
             }
         }
         
-        System.out.println("Southwest Montana State Lineup:");
+        System.out.println("Southeast Montana State Lineup:");
         for (int i = 0; i < myTeam.length; i++) {
             Player tempPlayer = myTeam[i];
-            System.out.println("Position: " + tempPlayer.getPosition() + "  Avg: " + tempPlayer.getBattingAverage());
+            System.out.println("Position: " + tempPlayer.getPosition() + "  Average: " + tempPlayer.getBattingAverage());
         }
     }
 }
